@@ -1,0 +1,58 @@
+.banner-section{
+    position: relative;
+}
+.banner-img  {
+    width: 100%;
+    mask-image: linear-gradient(to right, transparent, black 75%);
+    -weblit-mask-image: linear-gradient(to right, transparent, black 75%);
+}
+.banner-caption {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 10%;
+}
+.hero-img{
+    width: 90%;
+    max-width: 420px;
+    margin-bottom: 30px;
+}
+.banner-caption p {
+    max-width: 700px;
+    color: #fff;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+.banner-play{
+    display: flex;
+    gap:10px;
+    margin-bottom: 50px;
+}
+.banner-play img{
+    width: 25px;
+}
+.banner-play button{
+    border: unset;
+    padding: 8px 20px;
+    outline: 0;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    
+    border-radius: 4px;
+    cursor: pointer;
+}
+.play-btn{
+    background: #fff;
+}
+.play-btn:hover{
+    background: #ffffffbf;
+}
+.info-btn{
+    background-color: #6d6d6eb3;
+}
+.info-btn:hover{
+    background-color: #6d6d6e66;
+}
