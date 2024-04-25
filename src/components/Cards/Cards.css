@@ -1,6 +1,6 @@
-.title-cards h2{
+.title-cards h2 {
     color: #fff;
-    font-size: 20px;
+    font-size: 24px;
     padding-bottom: 20px;
 }
 .card-list {
@@ -8,6 +8,9 @@
     align-items: center;
     gap: 15px;
     overflow-x: scroll;
+}
+.card-list::-webkit-scrollbar{
+    display: none;
 }
 .cards img{
     border-radius: 5px;

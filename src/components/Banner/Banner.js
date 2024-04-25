@@ -4,6 +4,7 @@ import banner_img from './../images/hero_banner.jpg';
 import hero_title from './../images/hero_title.png';
 import play_icon from './../images/play_icon.png';
 import infro_icon from './../images/info_icon.png';
+import Cards from "../Cards/Cards";
 const Banner = () => {
     return(
         <div className="banner-section">
@@ -15,6 +16,7 @@ const Banner = () => {
                 <button className='play-btn'><img src={play_icon} alt="play-icon"/>Play</button>
                 <button className='info-btn'><img src={infro_icon} alt="info-icon"/>More Info</button>
             </div>
+            <Cards/>
             </div>
         </div>
     )
